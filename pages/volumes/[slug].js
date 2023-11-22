@@ -3,6 +3,7 @@ import { volumes } from "../../lib/data.js";
 import Head from "next/head";
 import Link from "next/link.js";
 
+
 export default function VolumeDeail() {
     const router = useRouter();
     const {slug} = router.query;
