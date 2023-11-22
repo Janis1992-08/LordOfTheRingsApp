@@ -1,4 +1,5 @@
 import { introduction } from "../../lib/data.js";
+import { volumes } from "../../lib/data.js";
 import Link from "next/link";
 
 export default function Volumes() {
