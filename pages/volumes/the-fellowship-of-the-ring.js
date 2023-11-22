@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 
-export default function volumeOne() {
+export default function VolumeOne() {
   const movie = volumes.find(
     ({ slug }) => slug === "the-fellowship-of-the-ring"
   );
