@@ -4,15 +4,15 @@ import Image from "next/image";
 
 
 export default function VolumeTwo() {
-  const movie = volumes.find(
+  const volume = volumes.find(
     ({ slug }) => slug === "the-two-towers"
   );
   return (
     <>
-      <h1>{movie.title}</h1>
-      <p>{movie.description}</p>
+      <h1>{volume.title}</h1>
+      <p>{volume.description}</p>
       <h2>All Volumes</h2>
-      {movie.books.map((book) => {
+      {volume.books.map((book) => {
         return (
           <ul key={book.title}>
             <li>{book.ordinal}</li>
